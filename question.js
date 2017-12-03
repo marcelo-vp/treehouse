@@ -8,4 +8,4 @@ function Question (text, choices, answer) {
 // Building the 'check answer' prototype method
 Question.prototype.isCorrectAnswer = function (choice) {
     return this.answer === choice;
-}
+};
